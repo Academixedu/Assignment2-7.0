@@ -3,8 +3,8 @@ public class PrintName {
 public static void main(String[] args) {
 
   // Complete the Logic
-  Function("MANI");
-  System.out.println("I am "+Function("MANI"));
+   String result=Function("MANI");
+  System.out.println("I am "+result);
 
 
 }
