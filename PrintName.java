@@ -1,9 +1,9 @@
 public class PrintName {
 public static void main(String[] args) {
   
-  System.out.println(pname("karthik"));
+  System.out.println(Name("karthik"));
 }
-  public static String pname(String name){
+  public static String Name(String name){
     return name;
   }
 }
