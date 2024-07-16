@@ -1,6 +1,11 @@
 public class PrintName {
-  // Prepare Function with Name Parameter to get your name
+  
+  public void name(String n){
+     System.out.println("name is "+n);
+  }
 public static void main(String[] args) {
-  // Complete the Logic
+  PrintName n =new PrintName();
+  n.name("Astik");
 }
+
 }

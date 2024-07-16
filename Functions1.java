@@ -4,7 +4,7 @@ public class Functions1{
   // Write a Print Statement in method and Print it
   public static void main(String[]args){
   Functions1 f=new Functions1();
-   f.emp(25000,"Astik",76000,"engineer");
+   f.emp(28940,"Astik",76000,"engineer");
   }
   public void emp(int eid,String ename, int  esal, String edesg )
   {
