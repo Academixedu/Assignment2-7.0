@@ -8,8 +8,8 @@ public class SubtractNumbers {
       }
   public static int subtract(int number1,int number2)
   {
-      int result;
-    return result = number1 - number2;
+      
+    return  number1 - number2;
   }
 }
 
