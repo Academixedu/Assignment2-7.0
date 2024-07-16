@@ -1,8 +1,15 @@
-public class Functions1{
-// Create One Function/Method to get emp data
-  // method paramaters should contain eid,ename,esal,edesg and return type should be void
-  // Write a Print Statement in method and Print it
-  public static void main(String[]args){
-  Functions1 f=new Functions1();
-  }
+public class Function {
+
+    public void getEmpData(int eid,String ename,int esal,String edseg)
+     {
+        System.out.println("Enter your eid"+eid);
+        System.out.println("Enter your eid"+ename);
+        System.out.println("Enter your eid"+esal);
+        System.out.println("Enter your eid"+edseg);
+    }
+    public static void main(String[] args)
+    {
+        Function aobj=new Function();
+        aobj.getEmpData(100,"Shryash", 100000, "Er");
+    }
 }
