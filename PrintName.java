@@ -4,7 +4,7 @@ public static void main(String[] args) {
 
   // Complete the Logic
   Function("MANI");
-  System.out.println(Function("MANI"));
+  System.out.println("I am "+Function("MANI"));
 
 
 }
