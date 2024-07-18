@@ -6,3 +6,4 @@ public class Functions1{
   Functions1 f=new Functions1();
   }
 }
+bshjj
