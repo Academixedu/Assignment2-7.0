@@ -1,6 +1,9 @@
 public class PrintName {
-  // Prepare Function with Name Parameter to get your name
+  public void name(String naam){
+    System.out.println("The entered name is: "+naam);
+  }
 public static void main(String[] args) {
-  // Complete the Logic
+  PrintName naam = new PrintName();
+  naam.name("Verat");
 }
 }
